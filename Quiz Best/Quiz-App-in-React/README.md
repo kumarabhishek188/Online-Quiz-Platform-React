@@ -1,59 +1,62 @@
-# Quiz Application using React js
+# Online Quiz Platform  
 
-![GitHub](https://img.shields.io/github/license/prathameshdhande22/Quiz-App-in-React?color=blue&style=for-the-badge)
+Welcome to the Online Quiz Platform! This is a React-based application designed to provide an engaging and interactive quiz experience. The platform utilizes a quiz API to generate multiple-choice questions dynamically, offering a fun and competitive environment for users.  
 
-## Demo : https://quiz-app-in-react.vercel.app/
+## Features  
+- **Dynamic Questions:** Automatically fetches 10 questions using a quiz API with Timer.  
+- **Immediate Feedback:** Provides real-time feedback on whether the selected answer is correct or incorrect.  
+- **User-Friendly UI:** Built with Material UI, MDBBootstrap, React-Bootstrap, and Redux for a clean, modern, and responsive interface.  
+- **Scoring System:** Tracks and displays the user’s score at the end of the quiz.  
 
-This is the First Project for React Series in Web Development Tutorial.
+---
 
-This is a quiz app built using React with Material UI, MDBBootstrap, React-Bootstrap, and Redux. The app uses a quiz API to generate 10 questions per quiz. Each correct answer gives the user a score of 10.
+## Installation  
 
-## ScreenShots :
-1. HomePage of the App.
-![Home Page](./Screenshots/Img1.png)
+Follow these steps to set up the application on your local machine:  
 
-2. Asking User Name.
-![Name Dialog](./Screenshots/img2.png)
+1. **Clone the Repository:**  
+   ```bash
+   git clone https://github.com/your-repository/Online-Quiz-Platform-React.git
+   cd Online-Quiz-Platform-React
+2. Install Dependencies:
+```bash
+npm install
+```
+3. Set Up Environment Variables:
+```bash
+Create a .env file in the root directory.
 
-3. Quiz Page.
-![Quiz Page](./Screenshots/img3.png)
 
-4. Quiz Page when Wrong Option Selected.
-![Quiz Page wrong Selection](./Screenshots/img4.png)
+Visit the quizapi.io website and log in. After logging in, go to the Free API section. The website will automatically generate an API key for you. Copy the key and paste it into the .env file like this:
 
-## Installation :
+REACT_APP_QUIZ_API=your_api_key_here 
+```
 
-To use the app, follow these steps:
+## Usage:
+1. Start the Application:
+Run the following command to start the development server:
+```bash
+npm start
+```
+2. Using the Platform:
+-Enter your name to begin the quiz.
+-Answer 10 multiple-choice questions with Timer.
+-Receive immediate feedback on your answers.
+-View your final score at the end of the quiz.
 
-1. Clone the repository to your local machine.
-2. Install the necessary dependencies by running npm install in your terminal.
-3. Create a .env file in the root directory and include the API key for the quiz API in the following format: REACT_APP_QUIZ_API=your_api_key_here.
-   Usage
-4. To run the app, use the command npm start in your terminal. The app will open in your browser at http://localhost:3000.
+## Dependencies:
+This application relies on the following technologies and libraries:
 
-## Usage :
+- React - JavaScript library for building user interfaces.
+- Material UI - React components for faster and easier web development.
+- MDBBootstrap - Material Design for Bootstrap.
+- React-Bootstrap - Bootstrap components built with React.
+- Redux - State management library for React applications.
+- Axios - Promise-based HTTP client for making API requests.
 
-The user will be prompted to enter their name before starting the quiz. The quiz consists of 10 multiple-choice questions. The user will receive immediate feedback on their answers, and their score will be displayed at the end of the quiz.
 
-## Dependencies
+## Contact:
 
-- React
-- Material UI
-- MDBBootstrap
-- React-Bootstrap
-- Redux
-- Axios
-
-## Contributing
-
-If you would like to contribute to this project, please create a pull request. All contributions are welcome.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more information.
-
-## Images Taken From :
-
-- <a href="https://www.flaticon.com/free-icons/quiz" title="quiz icons">Quiz icons created by Freepik - Flaticon</a>
-
-## Author : Prathamesh Dhande
+- DEMO : https://online-quiz-platform-react.netlify.app/
+- Email: abhishekkumarada12@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhishek-kumar-92157823a/
