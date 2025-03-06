@@ -25,7 +25,11 @@ npm install
 3. Set Up Environment Variables:
 ```bash
 Create a .env file in the root directory.
-REACT_APP_QUIZ_API=your_api_key_here
+
+
+Visit the quizapi.io website and log in. After logging in, go to the Free API section. The website will automatically generate an API key for you. Copy the key and paste it into the .env file like this:
+
+REACT_APP_QUIZ_API=your_api_key_here 
 ```
 
 ## Usage:
@@ -43,19 +47,19 @@ npm start
 ## Dependencies:
 This application relies on the following technologies and libraries:
 
--React - JavaScript library for building user interfaces.
--Material UI - React components for faster and easier web development.
--MDBBootstrap - Material Design for Bootstrap.
--React-Bootstrap - Bootstrap components built with React.
--Redux - State management library for React applications.
--Axios - Promise-based HTTP client for making API requests.
+- React - JavaScript library for building user interfaces.
+- Material UI - React components for faster and easier web development.
+- MDBBootstrap - Material Design for Bootstrap.
+- React-Bootstrap - Bootstrap components built with React.
+- Redux - State management library for React applications.
+- Axios - Promise-based HTTP client for making API requests.
 
 
-## Contact
+## Contact:
 
-DEMO : https://online-quiz-platform-react.netlify.app/
-Email: abhishekkumarada12@gmail.com
-LinkedIn: https://www.linkedin.com/in/abhishek-kumar-92157823a/
+- DEMO : https://online-quiz-platform-react.netlify.app/
+- Email: abhishekkumarada12@gmail.com
+- LinkedIn: https://www.linkedin.com/in/abhishek-kumar-92157823a/
 
 
 
